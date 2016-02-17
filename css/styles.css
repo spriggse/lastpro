@@ -1,0 +1,30 @@
+.jumbotron{
+  color: #19333C ;
+border-color: red;
+background-color: #FCF8E3;
+    background-repeat: no-repeat;
+
+}
+.gif{
+  margin-left:70px;
+  width: 90%;
+  height:50%;
+  z-index: +1;
+}
+footer {
+  padding-top:40px;
+    width: 1275px;
+    height: 150px;
+    color: #FFA29D;
+    background-color: #151F36;
+  }
+body{
+  background-color: #6CADB3;
+}
+.word{
+  font-family: 'Arvo', serif;
+}
+.part{font-family: 'Trochut', cursive;
+}
+h3{
+font-family: 'Fira Sans', sans-serif;}
