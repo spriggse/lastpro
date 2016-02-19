@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+
+/*header*/
+.logo {
+	width: 90px;
+}
+
+header h1 {
+	font-family: 'Satisfy', cursive;
+	color: #FF827B;
+	margin-top: 20px;
+}
+
+.nav li {
+	font-size: 20px;
+}
+
+li a {
+	color: #61AEE6;
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+a:hover {
+	color: #FF827B;
+}
+
+.bottom {
+	top: 20px;
+}
+/*end of header*/
+.jumbotron {
+	background-image: url(../img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+}
+
+.jumbotron h2 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	color: #fff;
+}
+/*jumbotron*/
+
+/*content*/
+.featured {
+	margin-bottom: 60px;
+}
+
+.product {
+	background-color: #edf1f4;
+	border-radius: 5%;
+	border: 5px solid rgb(252, 252, 252);
+}
+
+.img-box {
+	margin: 10px 0px;
+}
+
+.product a {
+	margin-bottom: 10px;
+}
+
+/*end of content*/
+
+
+/*footer*/
+footer {
+	background-color: #231f20;
+	padding-top: 20px;
+}
+
+footer a {
+	color: #bfc0c1;
+}
+
+.contact-info {
+	padding-top: 15px;
+	padding-left: 40px;
+	border-right: 1px solid #333;
+	border-left: 1px solid #333;
+}
+
+.social {
+	padding: 15px;
+
+}
+
+footer .fine-print {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: #505050;
+}
+
+/*end of footer*/
+
+/*media queries*/
+
+@media (max-width: 767px) {
+	.center {
+		float: none;
+		margin: 0 auto;
+	}
+	.bottom {
+		top: 0;
+	}
+	.social {
+		text-align: center;
+		font-size: 45px;
+	}
+	.social i {
+		margin: 20px 10px 0px;
+	}
+}
